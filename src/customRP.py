@@ -27,7 +27,7 @@ class Select:
             while True:
                 time.sleep(15)
         else:
-            print("Error, required data is not found!")
+            input("Error, required data is not found!\nPress any key to close app!")
 
 print("(✿◡‿◡)Welcome to my custom Rich Presence Creator! O(∩_∩)O(*^_^*)")
 
