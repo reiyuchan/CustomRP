@@ -4,7 +4,7 @@ import time
 
 
 class Select:
-    def __init__(self, s, d, l_img, l_img_txt, tkn):
+    def __init__(self, s: str, d: str, l_img: str, l_img_txt: str, tkn: str):
         self.state = s
         self.details = d
         self.largeImage = l_img
